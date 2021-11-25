@@ -9,12 +9,8 @@ const modal = {
             .classList
             .remove("hidden");
         DOM.addBlur();
-<<<<<<< HEAD
-        document.getElementById("task-text").focus();
-=======
         document.getElementById("task-text").focus()
-        console.log("Teste")        
->>>>>>> ab3bc5df2fd4fc3daf38a3eaf8243eaea4e7f5fd
+
     },
     close() {
         document
